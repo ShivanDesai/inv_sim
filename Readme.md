@@ -1,5 +1,17 @@
 # 272-Project
 
+### here is the project for your team
+Name entity recognition using OCR from a invoice
+
+Develop a service that takes invoices as input and generates a csv with important name and entities which can be ingested into a database. The end to end flow will show the extracted data which user will acknowledge before it gets ingested into db.
+
+use state of the art OCR and language model to build this. take a couple of invoices as examples ..
+
+see some scholarly papers/patents:
+https://patents.google.com/patent/US10402163B2/en
+https://dl.acm.org/citation.cfm?id=3344248
+
+
 Project Idea 1:
 1. Project Title - Match Me.
 
