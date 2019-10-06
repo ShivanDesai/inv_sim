@@ -7,6 +7,9 @@ Develop a service that takes invoices as input and generates a csv with importan
 
 use state of the art OCR and language model to build this. take a couple of invoices as examples ..
 
+![invoice-description](https://user-images.githubusercontent.com/12015008/66272626-15463c00-e821-11e9-923d-b8b8d20f77a1.jpg)
+![Joes-golf-invoice-template-2016](https://user-images.githubusercontent.com/12015008/66272627-18d9c300-e821-11e9-82da-5d17210bf7e7.jpg)
+
 see some scholarly papers/patents:
 https://patents.google.com/patent/US10402163B2/en
 https://dl.acm.org/citation.cfm?id=3344248
