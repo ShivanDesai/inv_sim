@@ -7,7 +7,7 @@ In today’s scenario, where time is of prime importance, decoding a complex inv
 # Technology Stack
 1. React for front end desing
 2. Node for backend
-3. Python for data processing. Libraries used:\n
+3. Python for data processing. Libraries used:
     * Numpy, pillow and openCV image upscaling and segmentation.
     * Pytesseract for OCR.
     * Spacy / NLTK for named entity recognition and catagorization.
