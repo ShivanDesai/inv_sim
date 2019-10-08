@@ -8,12 +8,7 @@ In today’s scenario, where time is of prime importance, decoding a complex inv
 1. React for front end desing
 2. Node for backend
 3. Python for data processing. Libraries used:\n
-    a. Numpy, pillow and openCV image upscaling and segmentation.
-    b. Pytesseract for OCR.
-    c. Spacy / NLTK for named entity recognition and catagorization.
-    d. Numpy and pandas for processing of extracted data.
-    * Datasets: Kaggle dataset (json), Social media APIs, Cornell sarcasm dataset (For training the model)
-    * ML frameworks: SKlearn, Tensor flow, Pandas, NLTK/Stanford NER  
-    * Visualization: Tableau
-    * Web application: ReactJS
-    * Cloud/Infra Platform: AWS EC2, docker, MongoDB
+    * Numpy, pillow and openCV image upscaling and segmentation.
+    * Pytesseract for OCR.
+    * Spacy / NLTK for named entity recognition and catagorization.
+    * Numpy and pandas for processing of extracted data.
