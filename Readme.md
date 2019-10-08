@@ -12,3 +12,5 @@ In today’s scenario, where time is of prime importance, decoding a complex inv
     * Pytesseract for OCR.
     * Spacy / NLTK for named entity recognition and catagorization.
     * Numpy and pandas for processing of extracted data.
+    
+###### Original Professor Feedback :-
