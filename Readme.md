@@ -14,3 +14,8 @@ In today’s scenario, where time is of prime importance, decoding a complex inv
     * Numpy and pandas for processing of extracted data.
     
 ###### Original Professor Feedback :-
+Name entity recognition using OCR from a invoice
+
+Develop a service that takes invoices as input and generates a csv with important name and entities which can be ingested into a database. The end to end flow will show the extracted data which user will acknowledge before it gets ingested into db.
+
+use state of the art OCR and language model to build this. take a couple of invoices as examples ..
