@@ -12,3 +12,8 @@ In today’s scenario, where time is of prime importance, decoding a complex inv
     b. Pytesseract for OCR.
     c. Spacy / NLTK for named entity recognition and catagorization.
     d. Numpy and pandas for processing of extracted data.
+    * Datasets: Kaggle dataset (json), Social media APIs, Cornell sarcasm dataset (For training the model)
+    * ML frameworks: SKlearn, Tensor flow, Pandas, NLTK/Stanford NER  
+    * Visualization: Tableau
+    * Web application: ReactJS
+    * Cloud/Infra Platform: AWS EC2, docker, MongoDB
