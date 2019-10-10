@@ -8,13 +8,13 @@ In today’s scenario, where time is of prime importance, decoding a complex inv
 ![Architecture Diagram](https://github.com/SJSUFall2019-CMPE272/Invoice-Simplifier/blob/master/Architecture.jpg)
 
 # Technology Stack
-1. Frontend - React / Vue
-2. Backend - Nodejs and related libraries
-3. Python for data processing. Libraries used:
-    * Numpy, pillow and openCV - Image upscaling and segmentation
-    * Pytesseract - OCR
-    * Spacy / NLTK - Named entity recognition and catagorization
-    * Numpy and pandas - Data processing
+__1. Frontend__ - React / Vue
+__2. Backend__ - Nodejs and related libraries
+__3. Python__ - data processing. Libraries used:
+    * __Numpy, pillow and openCV__ - Image upscaling and segmentation
+    * __Pytesseract__ - OCR
+    * __Spacy / NLTK__ - Named entity recognition and catagorization
+    * __Numpy and pandas__ - Data processing
     
     
 # Team
