@@ -3,6 +3,7 @@ Invoice simplifier is a productivity application that tracks and analyses your e
 
 # Abstract
 In today’s scenario, where time is of prime importance, decoding a complex invoice and reconciliation can be tedious and time consuming. In addition, in this cumbersome process, missing crucial details and spotting errors in the invoice can be an added overhead. To take care of all these day to day issues Invoice-Simplifier extracts key elements from your invoices, and gives you a simplified and informative summary, while also analysing and categorizing the different products / services that drain your wallet the most. Pie charts and graphs has been included as an added advantage to get a better visual understanding of the expenditures. Our application plans to reduce all the overheads from the users’ perspective and make invoice analysis a seamless experience. 
+
 # Architecture Diagram
 ![Architecture Diagram](https://github.com/SJSUFall2019-CMPE272/Invoice-Simplifier/blob/master/Architecture.jpg)
 
@@ -15,6 +16,13 @@ In today’s scenario, where time is of prime importance, decoding a complex inv
     * Spacy / NLTK for named entity recognition and catagorization.
     * Numpy and pandas for processing of extracted data.
     
+    
+# Team
+1. Shivan Desai - Will be working on frontend design and functionality implementations.
+2. Samik Biswas - Handling image upscaling, segmentation, OCR and NER.
+3. Shubhangi Yadav - Planning and implementing backend solutions along with security authentication and data validation.
+4. Rajeev Sebastian - Integrating different parts of the project and interfacing between different technologies.
+
 ###### Original Professor Feedback :-
 Name entity recognition using OCR from a invoice
 
