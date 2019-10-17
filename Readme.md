@@ -23,7 +23,7 @@ The user particpation can be as simple as just uploading a snapshot of the invoi
 1. __Shivan Desai__ - Will be working on frontend design and functionality implementations.
 2. __Samik Biswas__ - Handling image upscaling, segmentation, OCR and NER.
 3. __Shubhangi Yadav__ - Planning and implementing backend solutions along with security authentication and data validation.
-4. __Rajeev Sebastian__ - Integrating different parts of the project and interfacing between different technologies.
+4. __Rajeev Sebastian__ - Integrating different parts of the project and interfacing between different technologies and cloud deployment.
 
 ###### Original Professor Feedback :-
 Name entity recognition using OCR from a invoice
