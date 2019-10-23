@@ -6,6 +6,9 @@ In today’s scenario, where time is of prime importance, decoding a complex inv
 
 The user particpation can be as simple as just uploading a snapshot of the invoice and hit the submit button. The invoice will be directly sent to our backend python data processing service that will take care of all the complex stuffs. Once done the processed data will be displayed to the user for a final confirmation. That's it, it will be ingested into the database summary reports and charts will pop up on the user dashboard.
 
+# Target Users
+Small & medium sized business owners specially in developing countries(e.g. India etc.) where printed invoices are still a regular practice and not the digitized ones.
+
 # Architecture Diagram
 ![Architecture Diagram](https://github.com/SJSUFall2019-CMPE272/Invoice-Simplifier/blob/master/Architecture.jpg)
 
