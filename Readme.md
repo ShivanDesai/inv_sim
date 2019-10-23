@@ -9,6 +9,12 @@ The user particpation can be as simple as just uploading a snapshot of the invoi
 # Target Users
 Small & medium sized business owners specially in developing countries(e.g. India etc.) where printed invoices are still a regular practice and not the digitized ones.
 
+# Impact Of Product
+1. Reduce the cost of manual effort: The application allows for automatic categorization of invoices and does not require any manual effort for digitization of paper invoices.
+2. Automate processes: This involves automatic processing of invoices and reducing the errors that are caused by manual entry.
+3. Easy Access and Real time monitoring: With the dashboard business owners can have access to all the payments processed and greater visibility of where the money is being sent.
+4. Analytics: With all the invoices stored in one place analysis and accounting becomes easier.
+
 # Architecture Diagram
 ![Architecture Diagram](https://github.com/SJSUFall2019-CMPE272/Invoice-Simplifier/blob/master/Architecture.jpg)
 
