@@ -13,6 +13,7 @@ totalItemsSold = "N/A"
 total = "0"
 tax = "0"
 
+#for each line in the file, apply dictionary and then search for keywords
 with open("text.txt") as fp:
     line = fp.readline().lower()
     while line:
