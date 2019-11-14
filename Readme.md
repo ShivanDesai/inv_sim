@@ -2,11 +2,14 @@
 Invoice simplifier is a productivity application that tracks and analyses your expenses using invoice photos, thus eliminating the need for you to spend hours managing your expenses and budget.
 
 # Hill Statement
-Who - Small Business owners who cannot afford manual labour and time to analyze their purchases.
+## Who : 
+Small Business owners who cannot afford manual labour and time to analyze their purchases. Example Persona: John is small scale business owner who has just started his computer business. Due to the current crunch in his workforce, proper purchase management is getting ignored. John decides to use Invoice Simplifier to get his work done which simplifies his work as well as saves crucial manhours.
 
-What - Decoding a complex invoice and reconciliation can be tedious and time consuming. In addition, in this cumbersome process, missing crucial details and spotting errors in the invoice can be an added overhead. To take care of all these day to day issues Invoice-Simplifier extracts key elements from your invoices, and gives you a simplified and informative summary
+## What :
+Decoding a complex invoice and reconciliation can be tedious and time consuming. In addition, in this cumbersome process, missing crucial details and spotting errors in the invoice can be an added overhead. To take care of all these day to day issues Invoice-Simplifier extracts key elements from your invoices, and gives you a simplified and informative summary
 
-Wow - Cost effective as compared to sofisticated costly products. In addition cumulative summary of all purchases till now gives a comprehensive summary of overall expenses in different fields.
+## Wow :
+Cost effective as compared to sofisticated costly products. In addition cumulative summary of all purchases till now gives a comprehensive summary of overall expenses in different fields.
 
 
 # Abstract
