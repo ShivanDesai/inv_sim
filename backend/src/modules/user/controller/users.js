@@ -3,7 +3,6 @@
 import Users from '../../../models/mongoDB/users'
 import constants from '../../../utils/constants'
 import mongoose from 'mongoose'
-import uuidv1 from 'uuid/v1'
 
 /**
  * Create user and save data in database.
@@ -12,20 +11,25 @@ import uuidv1 from 'uuid/v1'
  */
 exports.createUser = async (req, res) => {
 	let createdUser,
-		filter = {}
+		filter = {},
+		resObj = {}
 	try {
 		filter.email = req.body.email
 
-		const user = await Users.findOne(filter)
+		let user = await Users.findOne(filter)
 		if (user) {
-			return res.status(constants.STATUS_CODE.CONFLICT_ERROR_STATUS).send(constants.MESSAGES.USER_ALREADY_EXISTS)
+			let token = user.generateToken()
+			user = user.toJSON()
+			user.token = token
+		} else {
+			let newUser = new Users(req.body)
+			createdUser = await newUser.save()
+			const token = createdUser.generateToken()
+			createdUser = createdUser.toJSON()
+			createdUser.token = token
 		}
-
-		let newUser = new Users(userObj)
-		createdUser = await newUser.save()
-		createdUser = createdUser.toJSON()
-		delete createdUser.password
-		return res.status(constants.STATUS_CODE.CREATED_SUCCESSFULLY_STATUS).send(createdUser)
+		resObj = user || createdUser
+		return res.status(constants.STATUS_CODE.SUCCESS_STATUS).send(resObj)
 	} catch (error) {
 		console.log(`Error while creating user ${error}`)
 		return res.status(constants.STATUS_CODE.INTERNAL_SERVER_ERROR_STATUS).send(error.message)

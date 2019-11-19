@@ -3,26 +3,16 @@
 import Joi from 'joi'
 
 module.exports = {
-	signup: {
+	createUser: {
 		body: {
 			name: Joi.string().required(),
-			email: Joi.string().email(),
+			email: Joi.string().email().required(),
 			phone: Joi.number(),
-			dateOfBirth: Joi.string().required(),
-			password: Joi.string().regex(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/).required()
+			uid: Joi.string().required()
 		},
 		model: "createUser",
 		group: "User",
 		description: "Create user and save details in database"
-	},
-	login: {
-		body: {
-			loginId: Joi.string().required(),
-			password: Joi.string().required()
-		},
-		model: "loginUser",
-		group: "User",
-		description: "Login user and send auth token and user details in response"
 	},
 	getProfile: {
 		path: {
