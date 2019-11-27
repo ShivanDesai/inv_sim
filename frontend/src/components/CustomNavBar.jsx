@@ -43,6 +43,11 @@ export default class CustomNavBar extends Component {
                             {action}
                         </Nav.Link>
                         </Nav.Item>
+                        <Nav.Item>
+                        <Nav.Link>
+                            <NavLink to="/userPage">User Page</NavLink>
+                        </Nav.Link>
+                        </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

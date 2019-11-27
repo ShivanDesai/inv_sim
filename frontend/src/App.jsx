@@ -8,6 +8,7 @@ import CustomNavBar from './components/CustomNavBar';
 import Home from './components/Home';
 import Login from './components/Login';
 import Logout from './components/Logout';
+import UserPage from './components/UserPage';
 
 class App extends Component {
 
@@ -30,6 +31,8 @@ class App extends Component {
             <Route exact path="/" component = {Home}/>
             <Route path="/login" render={(props) => (<Login {...props} />)}/>
             <Route path="/logout" component = {Logout}/>
+            <Route path="/userPage" component = {UserPage}/>
+
         </div>
       </Router>
     );
